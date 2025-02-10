@@ -127,8 +127,8 @@ func (srv *server) read()  {
 
 
 func usage()  {
-    fmt.Printf("Usage: %s <listen:port> <destination:port>",os.Args[0])
-    fmt.Printf("Example: %s 127.0.0.1:4445 127.0.0.1:4444 connects to 127.0.0.1 at port 4444 and listens on 4445",os.Args[0])
+    fmt.Printf("Usage: %s <listen:port> <destination:port>\n",os.Args[0])
+    fmt.Printf("Example: %s 127.0.0.1:4445 127.0.0.1:4444 connects to 127.0.0.1 at port 4444 and listens on 4445\n",os.Args[0])
 }
 
 
